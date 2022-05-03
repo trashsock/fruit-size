@@ -9,9 +9,6 @@ fullFileName = "images.jfif";
 [folder, baseFileName, ext] = fileparts(fullFileName);
 % Read in demo image.
 rgbImage = imread(fullFileName);
-% Shrink it to speed it up
-% rgbImage = imresize(rgbImage, 0.75);
-% Get the dimensions of the image.
 [rows, columns, numberOfColorChannels] = size(rgbImage);
 % Display the original image.
 subplot(2, 2, 1);
