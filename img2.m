@@ -1,3 +1,4 @@
+%for image 2
 clc;   
 close all; 
 workspace;  
